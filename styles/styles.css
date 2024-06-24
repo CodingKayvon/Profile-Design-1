@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #B59B80;
+  font-family: 'Playpen Sans', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.user-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: #d9c4b162;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, 0.5);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.user-box h3,
+.user-box p {
+  color: #eee;
+  background-color: transparent;
+}
+
+.user-box h3 {
+  font-size: 1em;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.user-box p {
+  font-size: .8em;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.container ul {
+  list-style: none;
+  background-color: white;
+  display: flex;
+  position: relative;
+  padding: 10px 0px 5px 0;
+  margin-top: -15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.container li {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+}
+
+li h3,
+li small {
+  background-color: white;
+  text-transform: capitalize;
+}
+
+a {
+  height: 50px;
+  width: 175px;
+  background-color: #b76eb8;
+  color: #eee;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: .8em;
+}
